@@ -1,0 +1,132 @@
+/* Base Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #1e1e2d;
+    color: #eaeaea;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center the container vertically */
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden; /* Prevent scrolling */
+}
+
+
+/* Container */
+.container {
+    background: #28293d;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    text-align: center;
+    max-width: 460px;
+    width: 100%;
+}
+
+/* Heading */
+h1 {
+    margin-bottom: 10px;
+    font-size: 28px;
+    font-weight: 600;
+    color: #f0f0f0;
+}
+
+/* Description */
+.description {
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #b3b3b3;
+}
+
+/* Input Group */
+.input-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Input */
+input[type="number"] {
+    width: 68%;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #4e4e6b;
+    border-radius: 8px;
+    background-color: #3e405c;
+    color: #eaeaea;
+    font-size: 16px;
+}
+
+/* Button */
+button {
+    width: 30%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button i {
+    margin-right: 5px;
+}
+
+button:hover {
+    background-color: #38833b;
+}
+
+/* Message */
+#message {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #f05050;
+}
+
+/* Download Link */
+a {
+    margin-top: 20px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #4CAF50;
+    display: inline-block;
+    padding: 10px 15px;
+    border: 1px solid #4CAF50;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+a i {
+    margin-right: 5px;
+}
+
+a:hover {
+    background-color: #4CAF50;
+    color: #fff;
+}
+
+/* Footer */
+footer {
+    width: 100%;
+    background-color: #28293d;
+    text-align: center;
+    color: #b3b3b3;
+    font-size: 14px;
+    padding: 15px 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    border-radius: 0 0 15px 15px;
+    box-shadow: 0 -10px 20px rgba(0, 0, 0, 0.4);
+}
+
+footer p {
+    margin: 0;
+}
